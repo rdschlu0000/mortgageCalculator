@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="DiceRoll.exe" version="1.0.0.0" publicKeyToken="df83541ae057c9dd" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="dice.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DiceRoll" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="DiceRoll.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DiceRoll.exe" size="469504">
+      <assemblyIdentity name="DiceRoll" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>FJHXOGFMpvp6lX3qZsihpQNdjcE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="dice.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>K9dmRdWXoY6jl/E5KKudtuKp34c=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=rdschlu0000-HP\rdschlu0000" issuerKeyHash="70548df463cc708ef92f0bcf20407d0e3fb52b57" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>EgMg5zBZMp3AnI8+GK0V0sAeob8=</DigestValue></Reference></SignedInfo><SignatureValue>xBPcww7R338ZB88DBVus51ffKEhqorgzCUzaMllzD3cHsdmHurGk+Q4hfa9AgL+YtjTOOKJVwQuQCOUf/4Y1IT1EbWZeA1opUaQn8P3X8UbLTKvwfzGT7UgB4AQs6R/7+LkwVxUY9aA/fj1nlvNr2efdHWkFs9JiVae81oe9/Yc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0IR1Uas6xR+OtWYpNCf3uYURodHO3Gkt0/O0MQvALwddEVb0PMbLuSjzGxlx7Kalon3jodqWtwgUx+JSwfttRSLEuuE0BLgJDm48p0Zz2mLugSjty5wSi7d+8lmTS4BO5R0h92z9bjclX+d3JDAEYKiZyfCrHnq+oUySb5li+hM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bfa11ec0d215ad183e8f9cc09d325930e7200312" Description="" Url=""><as:assemblyIdentity name="DiceRoll.exe" version="1.0.0.0" publicKeyToken="df83541ae057c9dd" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=rdschlu0000-HP\rdschlu0000</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>kgiPwFwsykyjYpWdZasmJ+Gyy0Y=</DigestValue></Reference></SignedInfo><SignatureValue>WSIgQmJbgivhDiEr+Ohb5Oz8+ojTaxamTxVTioVRrYLAle3C8elQQVQQCGGZb79QIIJIYQ5H9KZPL4ELLyZIBcplLXixKUyT5JIcOJhrilpRnJbpSj1UybDcKi/404ly61Al6Z7UUV6D77efDUytgQSjbZIq2rdKkBLul2jZtNo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0IR1Uas6xR+OtWYpNCf3uYURodHO3Gkt0/O0MQvALwddEVb0PMbLuSjzGxlx7Kalon3jodqWtwgUx+JSwfttRSLEuuE0BLgJDm48p0Zz2mLugSjty5wSi7d+8lmTS4BO5R0h92z9bjclX+d3JDAEYKiZyfCrHnq+oUySb5li+hM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICATCCAWqgAwIBAgIQZ8GmWwf7qYBLhMyoLYda+jANBgkqhkiG9w0BAQUFADA/MT0wOwYDVQQDHjQAcgBkAHMAYwBoAGwAdQAwADAAMAAwAC0ASABQAFwAcgBkAHMAYwBoAGwAdQAwADAAMAAwMB4XDTEzMDExMDIwMDYxN1oXDTE0MDExMTAyMDYxN1owPzE9MDsGA1UEAx40AHIAZABzAGMAaABsAHUAMAAwADAAMAAtAEgAUABcAHIAZABzAGMAaABsAHUAMAAwADAAMDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0IR1Uas6xR+OtWYpNCf3uYURodHO3Gkt0/O0MQvALwddEVb0PMbLuSjzGxlx7Kalon3jodqWtwgUx+JSwfttRSLEuuE0BLgJDm48p0Zz2mLugSjty5wSi7d+8lmTS4BO5R0h92z9bjclX+d3JDAEYKiZyfCrHnq+oUySb5li+hMCAwEAATANBgkqhkiG9w0BAQUFAAOBgQA6U7OTfo9odHyFmPoHD958pfSpI0/u0CoT+jE33VQnicprRqjLS9cRXjX6TF5mpmLh4BAkEzkZzwKi5RQBwRiDdUqgKhSN5c8nX4DN6R+yk6UdijUfgjdFQb6Js7ommEsUTfjtoJ4/GjfVAbBIKPQv/eAkXxYJ4yYIIvPf/oE03A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

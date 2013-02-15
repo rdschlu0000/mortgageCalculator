@@ -1,0 +1,15 @@
+C:\Users\rdschlu0000\documents\visual studio 2010\Projects\DiceRoll\DiceRoll\bin\Debug\DiceRoll.exe
+C:\Users\rdschlu0000\documents\visual studio 2010\Projects\DiceRoll\DiceRoll\bin\Debug\DiceRoll.pdb
+C:\Users\rdschlu0000\documents\visual studio 2010\Projects\DiceRoll\DiceRoll\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\rdschlu0000\documents\visual studio 2010\Projects\DiceRoll\DiceRoll\obj\x86\Debug\WindowsFormsApplication1.DiceRoll.resources
+C:\Users\rdschlu0000\documents\visual studio 2010\Projects\DiceRoll\DiceRoll\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\rdschlu0000\documents\visual studio 2010\Projects\DiceRoll\DiceRoll\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\rdschlu0000\documents\visual studio 2010\Projects\DiceRoll\DiceRoll\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\rdschlu0000\documents\visual studio 2010\Projects\DiceRoll\DiceRoll\obj\x86\Debug\DiceRoll.exe
+C:\Users\rdschlu0000\documents\visual studio 2010\Projects\DiceRoll\DiceRoll\obj\x86\Debug\DiceRoll.pdb
+C:\Users\rdschlu0000\Documents\Visual Studio 2010\Projects\DiceRoll\DiceRoll\obj\x86\Debug\WindowsFormsApplication1.Success.resources
+C:\Users\rdschlu0000\Documents\Visual Studio 2010\Projects\DiceRoll\DiceRoll\obj\x86\Debug\WindowsFormsApplication1.Error.resources
+C:\Users\rdschlu0000\Documents\Visual Studio 2010\Projects\DiceRoll\DiceRoll\bin\Debug\DiceRoll.exe.manifest
+C:\Users\rdschlu0000\Documents\Visual Studio 2010\Projects\DiceRoll\DiceRoll\bin\Debug\DiceRoll.application
+C:\Users\rdschlu0000\Documents\Visual Studio 2010\Projects\DiceRoll\DiceRoll\obj\x86\Debug\DiceRoll.exe.manifest
+C:\Users\rdschlu0000\Documents\Visual Studio 2010\Projects\DiceRoll\DiceRoll\obj\x86\Debug\DiceRoll.application
